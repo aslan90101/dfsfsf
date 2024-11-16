@@ -3,7 +3,7 @@ local function createSegment(position, rotation)
     local segment = Instance.new("Part")
     segment.Size = Vector3.new(1, 1, 5) -- Размер сегмента
     segment.Position = position -- Позиция сегмента
-    segment.Anchored = true -- Закрепляем сегмент
+    segment.Anchored = false -- Закрепляем сегмент
     segment.Material = Enum.Material.Neon -- Устанавливаем материал на Neon
     segment.BrickColor = BrickColor.Random() -- Устанавливаем случайный цвет
     segment.Parent = game.Workspace
